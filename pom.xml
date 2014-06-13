@@ -20,4 +20,15 @@
         <module>test-hk2</module>
     </modules>
     
+    <issueManagement>
+        <system>GitHub Issues</system>
+        <url>https://github.com/FitburIO/test/issues</url>
+    </issueManagement>
+    
+    <scm>
+        <url>https://github.com/FitburIO/test</url>
+        <connection>scm:git:git://github.com/FitburIO/test.git</connection>
+        <developerConnection>scm:git:git@github.com:FitburIO/test.git</developerConnection>
+    </scm>
+    
 </project>
