@@ -31,11 +31,17 @@
         <developerConnection>scm:git:git@github.com:FitburIO/test.git</developerConnection>
     </scm>
     
-     <build>
+    <build>
         <plugins>
             <plugin>
                 <groupId>org.pitest</groupId>
                 <artifactId>pitest-maven</artifactId>
+            </plugin>
+            <plugin>
+                <artifactId>maven-source-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <artifactId>maven-javadoc-plugin</artifactId>
             </plugin>
         </plugins>
     </build>
